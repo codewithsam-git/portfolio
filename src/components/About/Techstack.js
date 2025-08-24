@@ -1,68 +1,50 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
+  DiHtml5,
+  DiCss3,
+  DiMysql,
 } from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { SiExpress } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
+        <DiHtml5 />
+        <p style={{ fontSize: 26 }}>HTML</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
+        <DiCss3 />
+        <p style={{ fontSize: 26 }}>CSS</p>
+      </Col>
+      <Col md={2} className="tech-icons" style={{ textAlign: "center" }}>
         <DiJavascript1 />
+        <p style={{ fontSize: 26 }}>JavaScript</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col md={2} className="tech-icons" style={{ textAlign: "center" }}>
         <DiReact />
+        <p style={{ fontSize: 26 }}>React</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+      <Col md={2} className="tech-icons" style={{ textAlign: "center" }}>
+        <DiNodejs />
+        <p style={{ fontSize: 26 }}>Node.js</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col md={2} className="tech-icons" style={{ textAlign: "center" }}>
+        <SiExpress />
+        <p style={{ fontSize: 26 }}>Express.js</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
+        <DiMysql />
+        <p style={{ fontSize: 26 }}>MySQL</p>
+      </Col>
+      <Col md={2} className="tech-icons" style={{ textAlign: "center" }}>
         <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <p style={{ fontSize: 26 }}>MongoDB</p>
       </Col>
     </Row>
   );
