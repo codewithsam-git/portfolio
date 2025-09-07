@@ -35,7 +35,8 @@ function Projects() {
               imgPath={urlshortner}
               isBlog={false}
               title="URL-Shortner"
-              description="A simple MERN-based URL shortener that lets you create short links with custom names, copy them easily, and manage all your URLs in one place."
+              description="A simple MERN-based URL shortener that lets you create short links with custom names, copy them easily, and manage all your URLs in one place.
+Perfect for quick sharing and organized link management."
               // ghLink="https://github.com/codewithsam-git/ecommerce-clone"
               // demoLink="https://ecommerce-clone-three-mu.vercel.app/"
             />
