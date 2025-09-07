@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import ecommerce from "../../Assets/Projects/ecommerce.png"
 import codeworld from "../../Assets/Projects/codeworld.png"
 import backend1 from "../../Assets/Projects/backend1.png"
+import urlshortner from "../../Assets/Projects/urlshortner.png"
 
 function Projects() {
   return (
@@ -26,6 +27,17 @@ function Projects() {
               description="This is a simple E-commerce web application built with React that allows users to browse products, add them to the cart (only if logged in), and write product reviews. The app uses Firebase Authentication for login/registration and LocalStorage to persist cart and reviews."
               ghLink="https://github.com/codewithsam-git/ecommerce-clone"
               demoLink="https://ecommerce-clone-three-mu.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={urlshortner}
+              isBlog={false}
+              title="URL-Shortner"
+              description="A simple MERN-based URL shortener that lets you create short links with custom names, copy them easily, and manage all your URLs in one place."
+              // ghLink="https://github.com/codewithsam-git/ecommerce-clone"
+              // demoLink="https://ecommerce-clone-three-mu.vercel.app/"
             />
           </Col>
 
